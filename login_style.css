@@ -1,0 +1,32 @@
+section
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.login
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--secondary);
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 140px;
+    margin-left: 80px;
+}
+
+.login p
+{
+    margin-top: 20px;
+    margin-left: 90px;
+}
